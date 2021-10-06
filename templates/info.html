@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>About Crops</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../static/css/bootstrap.min.css" rel="stylesheet">
+<link href="../static/css/features.css" rel="stylesheet">
+<link href="../static/css/flip.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+  </head>
+  <body>
+
+<header>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <form action="/">
+        <button class="btn btn-primary my-2" type="submit">Home</button>
+    </form>
+    <form action="/crop">
+      <button class="btn btn-primary my-2" type="submit">Start Prediction</button>
+  </form>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-8 col-md-5 mx-auto">
+        <h1 class="fw-light"><strong>List of Crops</strong></h1>
+        <p class="lead text-muted"></p>
+        <p>
+
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+ 
+      <div class="container px-4 py-6" id="custom-cards">  
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/rice.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Rice</h2>
+                <h2>(चावल)</h2>
+              </div>
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/maize.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Maize</h2>
+                <h2>(मक्का)</h2>
+              </div>
+              <div class="card-body">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/chickpea.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Chickpea</h2>
+                <h2>(काबुली चना)</h2>
+              </div>
+              <div class="card-body">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/kidneybeans.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">kidneybeans</h2>
+                <h2>(राजमा)</h2>
+              </div>
+              <div class="card-body">
+             </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/piegeonpeas.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Piegeon peas</h2>
+                <h2>(कबूतर मटर)</h2>
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/mothbeans.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Moth beans</h2>
+                <h2>(मोठबीन)</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/mungbean.jpeg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Mung Beans</h2>
+                <h2>(मूंग)</h2>
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/blackgram.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Black Gram</h2>
+                <h2>(उरद दाल)</h2>
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/lentil.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Lentil</h2>
+                <h2>मसूर</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/pomogranate.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Pomegrante</h2>
+                <h2>(अनार)</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/banana.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Banana</h2>
+                <h2>(केला)</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/grapes.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Grapes</h2>
+                <h2>(अंगूर)</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/mango.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Mango</h2>
+                <h2>(आम)</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/watermellon.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Watermellon</h2>
+                <h2>(तरबूज)</h2>
+                <h2></h2>
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/muskmellon.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Muskmellon</h2>
+                <h2>(खरबूजा)</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/apple.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Apple</h2>
+                <h2>(सेब)</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/orange.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Orange</h2>
+                <h2>(संतरा)</h2>
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/papaya.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Papaya</h2>
+                <h2>(पपीता)</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/coconut.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Coconut</h2>
+                <h2>(नारियल)</h2>
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/cotton.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Cotton</h2>
+                <h2>(कपास)</h2>
+              </div>
+              <div class="card-body"> </div>
+            </div>
+          </div> 
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/jute.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Jute</h2>
+                <h2>(पटसन)</h2>
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../static/images/coffee.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Coffee</h2>
+                <h2>(कोफी)</h2>
+              </div>
+              <div class="card-body"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>      
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Made by:</p>
+    <p class="mb-1">Avadhoot Desai (2020.avadhoot.desai@ves.ac.in)</p>
+    <p class="mb-1">Aditya Kawale (2020.aditya.kawale@ves.ac.in)</p>
+    </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

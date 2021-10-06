@@ -1,0 +1,25 @@
+1 = Arhar
+2 = Cotton
+3 = Gram
+4 = Groundnut
+5 = Maize
+6 = Moong
+7 = Paddy
+8 = Rapeseed And Mustard
+9 = Sugarcane
+10 = Wheat
+
+
+11 = Uttar Pradesh
+12 = Karnataka
+13 = Gujarat
+14 = Andhra Pradesh
+15 = Maharashtra
+16 = Punjab
+17 = Haryana
+18 = Rajasthan
+19 = Madhya Pradesh
+20 = Tamil Nadu
+21 = Bihar
+22 = Orissa
+23 = West Bengal
